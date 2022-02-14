@@ -16,7 +16,6 @@
   justify-content: center;
   background-color: grey;
 }
-
 .BotonesNumeros button {
   flex: 0 0 33% 0;
   padding: 20px 0;
