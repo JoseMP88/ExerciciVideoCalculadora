@@ -21,3 +21,15 @@
   padding: 20px 0;
   cursor: pointer;
 }
+
+.BotonesOperacionales button {
+  width: 50%;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.BotonCalcular button {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 0;
+}

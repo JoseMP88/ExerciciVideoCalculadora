@@ -32,10 +32,13 @@ function App() {
 
             <br />
           </div>
-          <button onClick={() => aceptarOperacion("+")}>+</button>
-          <button onClick={() => aceptarOperacion("-")}>-</button>
-          <br />
-          <button onClick={calcular}>=</button>
+          <div className="BotonesOperacionales">
+            <button onClick={() => aceptarOperacion("+")}>+</button>
+            <button onClick={() => aceptarOperacion("-")}>-</button>
+          </div>
+          <div className="BotonCalcular">
+            <button onClick={calcular}>=</button>
+          </div>
         </>
       </div>
     </div>
